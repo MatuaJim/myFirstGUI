@@ -17,7 +17,7 @@ label = tk.Label(root, text="Welcome to my GUI! by Matua", bg="yellow", fg="blac
 label.pack(pady=20)
 
 # Create a button
-button = tk.Button(root, text="Click Me", command=show_message, bg="Yellow", fg="white")
+button = tk.Button(root, text="Click Me", command=show_message, bg="Yellow", fg="black")
 button.pack(pady=20)
 
 # Create a label to display the message
